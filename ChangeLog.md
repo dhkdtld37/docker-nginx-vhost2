@@ -8,4 +8,4 @@
 - [x] Docker build
 - [x] Docker Push -> Hub
 - [x] Docker Network
-- [x] Docker Run
+- [x] Docker Run .
