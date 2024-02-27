@@ -1,4 +1,4 @@
-docker stop $(docker stop -q)
-docker rm $(docker rm -a -q)
-docker rmi $(docker rmi -q)
+docker stop $(docker ps -q)
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -q)
 
